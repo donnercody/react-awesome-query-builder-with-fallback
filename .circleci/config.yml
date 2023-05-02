@@ -10,7 +10,7 @@ jobs:
       - browser-tools/install-chromedriver
       - run:
           name: Install pnpm
-          command: npm install
+          command: npm install --global pnpm
       - run:
           name: Check install
           command: |
